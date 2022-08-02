@@ -1,0 +1,28 @@
+
+body {
+    background-color: rgb(33,33,33);
+    color: whitesmoke;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+li {
+    padding-bottom: 1em;
+}
+.home-butt{
+    background-color:rgb(145, 145, 145) ;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: rgb(182, 182, 182);
+    float: right;
+    }
+
+.jump-top{
+    background-color:rgb(145, 145, 145) ;
+    color: white;
+    padding: 2px 5px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: rgb(182, 182, 182);
+    float:right;
+}
