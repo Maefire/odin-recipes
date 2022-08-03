@@ -7,6 +7,20 @@ body {
 li {
     padding-bottom: 1em;
 }
+.li-butt{
+    
+    padding-bottom: 1.5em;
+    border-style: solid;
+    border-color: rgb(182, 182, 182); 
+    content: "";
+    bottom:0;
+    left:0;
+    max-block-size: 2em;
+    max-width: 4.5em;
+    text-align:center;
+    background-image: linear-gradient(rgb(182,182,182), rgb(180,90,125), rgb(50, 102, 172));
+    border-radius: 1em;
+}
 .home-butt{
     background-color:rgb(145, 145, 145) ;
     color: white;
@@ -14,6 +28,7 @@ li {
     text-decoration: none;
     border-style: solid;
     border-color: rgb(182, 182, 182);
+    border-radius: 2em;
     float: right;
     }
 
@@ -24,5 +39,6 @@ li {
     text-decoration: none;
     border-style: solid;
     border-color: rgb(182, 182, 182);
+    border-radius: 2em;
     float:right;
 }
