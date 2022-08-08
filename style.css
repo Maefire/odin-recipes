@@ -4,14 +4,19 @@ body {
     color: whitesmoke;
     font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
 }
+.mp-title{
+    text-decoration: underline;
+    margin: 0 auto;
+    padding: 1em 0em 1em 24.3em;
+    max-width: 900em;
+}
 li {
     padding-bottom: 1em;
 }
 .li-butt{
-    
-    padding-bottom: 1.5em;
-    border-style: solid;
-    border-color: rgb(182, 182, 182); 
+    margin: 0 auto;
+    padding: 1em 0 1.5em;
+    border: double rgb(182, 182, 182); 
     content: "";
     bottom:0;
     left:0;
@@ -19,7 +24,10 @@ li {
     max-width: 4.5em;
     text-align:center;
     background-image: linear-gradient(rgb(182,182,182), rgb(180,90,125), rgb(50, 102, 172));
-    border-radius: 1em;
+    border-radius: 1em 1.5em;
+}
+.li2{
+    padding: .5em 0 2em
 }
 .home-butt{
     background-color:rgb(145, 145, 145) ;
@@ -29,7 +37,8 @@ li {
     border-style: solid;
     border-color: rgb(182, 182, 182);
     border-radius: 2em;
-    float: right;
+    position:fixed;
+    left:93%;
     }
 
 .jump-top{
@@ -40,5 +49,6 @@ li {
     border-style: solid;
     border-color: rgb(182, 182, 182);
     border-radius: 2em;
-    float:right;
+    position: absolute;
+    left: 91%;
 }
