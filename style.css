@@ -17,9 +17,6 @@ li {
     margin: 0 auto;
     padding: 1em 0 1.5em;
     border: double rgb(182, 182, 182); 
-    content: "";
-    bottom:0;
-    left:0;
     max-block-size: 2em;
     max-width: 4.5em;
     text-align:center;
